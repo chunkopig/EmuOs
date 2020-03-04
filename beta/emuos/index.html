@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--suppress HtmlUnknownTarget -->
+<html lang="en-us" prefix="og: http://ogp.me/ns/website#">
+	<!--
+
+
+	╔═╗╔╦╗╦ ╦╔═╗╔═╗╔╦═╗╦╔═╗
+	╠═ ║║║║ ║╠═╝╠═  ║ ║║╠═╣
+	╚═╝╩ ╩╚═╝╩  ╚═╝═╩═╝╩╩ ╩
+
+
+	-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; img-src 'self' data: *; style-src 'self' 'unsafe-inline'; font-src 'self' *; script-src 'self' 'unsafe-eval' 'unsafe-inline' http://emupedia.net https://emupedia.net http://ws.emupedia.net https://ws.emupedia.net http://emuos.net https://emuos.net http://ws.emuos.net https://ws.emuos.net http://www.google-analytics.com https://www.google-analytics.com https://ssl.google-analytics.com; connect-src 'self' http://ws.emupedia.net https://ws.emupedia.net http://ws.emuos.net https://ws.emuos.net *; manifest-src 'self'; frame-src 'self' *;" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,minimal-ui"/>
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="description" content="The purpose of Emupedia is to serve as a nonprofit meta-resource, hub and community for those interested mainly in video game preservation which aims to digitally collect, archive and preserve games and software to make them available online accessible by a user-friendly UI that simulates several retro operating systems for educational purposes." />
+		<meta name="author" content="Emupedia" />
+		<meta name="robots" content="all" />
+		<meta name="google" value="notranslate" />
+		<meta name="googlebot" content="all" />
+		<meta name="googlebot-news" content="all" />
+
+		<!-- Facebook App -->
+		<meta property="fb:app_id" content="527458061442300" />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="EmuOS" />
+		<meta name="twitter:url" content="/beta/emuos/" />
+		<meta name="twitter:image" content="/emupedia-resources/logos/emupedia-logo-256.png" />
+		<meta name="twitter:site" content="@EmupediaNet" />
+		<meta name="twitter:creator" content="@EmupediaNet" />
+
+		<!-- Open Graph Data -->
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Emupedia" />
+		<meta property="og:title" content="EmuOS" />
+		<meta property="og:description" content="The purpose of Emupedia is to serve as a nonprofit meta-resource, hub and community for those interested mainly in video game preservation which aims to digitally collect, archive and preserve games and software to make them available online accessible by a user-friendly UI that simulates several retro operating systems for educational purposes." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="/beta/emuos/" />
+		<meta property="og:image" content="/emupedia-resources/logos/emupedia/emupedia-logo-256.png" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="256" />
+		<meta property="og:image:height" content="256" />
+
+		<title>EmuOS</title>
+
+		<link rel="canonical" href="https://emupedia.net/beta/emuos/" />
+		<link rel="canonical" href="https://emuos.net/beta/emuos/" />
+		<link rel="manifest" href="manifest.webmanifest" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="/emupedia-resources/logos/emupedia-logo-58.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="/emupedia-resources/logos/emupedia/emupedia-logo-58.png" />
+		<link rel="apple-touch-icon" sizes="58x58" href="/emupedia-resources/logos/emupedia/emupedia-logo-58.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="/emupedia-resources/logos/emupedia/emupedia-logo-72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="/emupedia-resources/logos/emupedia/-logo-114.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/emupedia-resources/logos/emupedia/emupedia-logo-152.png" />
+		<link rel="apple-touch-icon" sizes="167x167" href="/emupedia-resources/logos/emupedia/emupedia-logo-168.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/emupedia-resources/logos/emupedia/emupedia-logo-180.png" />
+		<link rel="apple-touch-startup-image" href="/emupedia-resources/logos/emupedia/emupedia-logo-256.png" />
+
+		<!--Boot Theme-->
+		<style type="text/css">
+			html {
+				height: 100%;
+			}
+
+			/*noinspection CssUnknownTarget*/
+			body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				background-color: #76abd5;
+				background-image: url(/emupedia-resources/boot/win95/emuos-boot.png), url(/emupedia-resources/wallpapers/win95/windows-95-clouds-remastered-1680x1050.png);
+				background-repeat: no-repeat, no-repeat;
+				background-position: center, center;
+				background-size: contain, cover;
+				overflow: hidden;
+			}
+
+			body::after {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				display: block;
+				content: '';
+				width: 100%;
+				height: 28px;
+				background-image: linear-gradient(270deg, #4d7fb8, #5c89b9, #6c92bb, #7b9bbc, #8ba4be, #9aadbf, #aeb8c1, #9aadbf, #8ba4be, #7b9bbc, #6c92bb, #5c89b9, #4d7fb8, #4d7fb8, #5c89b9, #6c92bb, #7b9bbc, #8ba4be, #9aadbf, #aeb8c1, #9aadbf, #8ba4be, #7b9bbc, #6c92bb, #5c89b9, #4d7fb8);
+				background-repeat: no-repeat;
+				background-position: 0 50%;
+				background-size: 200% 100%;
+
+				-webkit-animation: boot 5s ease infinite;
+				-moz-animation: boot 5s ease infinite;
+				-o-animation: boot 5s ease infinite;
+				animation: boot 5s ease infinite;
+			}
+
+			.emuos body {
+				background-image: none;
+			}
+
+			.emuos body::after {
+				background-image: none;
+
+				-webkit-animation: none;
+				-moz-animation: none;
+				-o-animation: none;
+				animation: none;
+			}
+
+			@-webkit-keyframes boot {
+				0% {
+					background-position: 0 50%
+				}
+				50% {
+					background-position: 100% 50%
+				}
+				100% {
+					background-position: 0 50%
+				}
+			}
+
+			@-moz-keyframes boot {
+				0% {
+					background-position: 0 50%
+				}
+				50% {
+					background-position: 100% 50%
+				}
+				100% {
+					background-position: 0 50%
+				}
+			}
+
+			@-o-keyframes boot {
+				0% {
+					background-position: 0 50%
+				}
+				50% {
+					background-position: 100% 50%
+				}
+				100% {
+					background-position: 0 50%
+				}
+			}
+
+			@keyframes boot {
+				0% {
+					background-position: 0 50%
+				}
+				50% {
+					background-position: 100% 50%
+				}
+				100% {
+					background-position: 0 50%
+				}
+			}
+		</style>
+
+		<!--jQuery UI Base Theme-->
+		<link type="text/css" rel="stylesheet" href="css/libraries/jquery-ui.structure-1.11.4.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/libraries/jquery-ui.theme-1.11.4.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/libraries/jquery.contextMenu.css" />
+		<link type="text/css" rel="stylesheet" href="css/libraries/jquery-customscrollbar-3.1.5.css" />
+
+		<!-- Clippy -->
+		<link type="text/css" rel="stylesheet" href="css/libraries/clippy-0.0.3.css" />
+
+		<!--EmuOS Base Theme-->
+		<link type="text/css" rel="stylesheet" href="css/libraries/normalize-8.0.1.css" />
+		<!--<link type="text/css" rel="stylesheet" href="css/libraries/ionicons-4.6.3.min.css" />-->
+		<link type="text/css" rel="stylesheet" href="css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/fonts.css" />
+		<link type="text/css" rel="stylesheet" href="css/desktop.css" />
+		<link type="text/css" rel="stylesheet" href="css/taskbar.css" />
+		<link type="text/css" rel="stylesheet" href="css/window.css" />
+		<link type="text/css" rel="stylesheet" href="css/label.css" />
+		<link type="text/css" rel="stylesheet" href="css/badge.css" />
+		<link type="text/css" rel="stylesheet" href="css/tree.css" />
+
+		<!--EmuOS Win3x Theme-->
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/cursors.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/scrollbar.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/menu.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/desktop.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/window.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win3x/taskbar.css" />
+
+		<!--EmuOS Win9x Theme-->
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/cursors.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/scrollbar.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/menu.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/desktop.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/window.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/win9x/taskbar.css" />
+
+		<!--EmuOS Seasonal Theme-->
+		<link type="text/css" rel="stylesheet" href="css/themes/seasonal/xmas/snowflakes.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/seasonal/xmas/countdown.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/seasonal/newyear/fireworks.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/seasonal/newyear/countdown.css" />
+		<link type="text/css" rel="stylesheet" href="css/themes/seasonal/valentines/background.css" />
+	</head>
+	<body>
+		<script type="text/javascript" src="js/polyfills.js"></script>
+		<script type="text/javascript" src="js/platform.js"></script>
+		<script type="text/javascript" src="js/system.js"></script>
+		<script type="text/javascript" src="js/defines.js"></script>
+		<script type="text/javascript" src="js/libraries/requirejs-2.3.6.js" data-main="js/main" defer="defer"></script>
+	</body>
+</html>

@@ -1,0 +1,289 @@
+{
+	"format": {
+		"version": "1.0"
+	},
+	"icons": [{
+		"name": "EmuOS v2.0",
+		"title": "Under Development",
+		"icon": "favicon.ico",
+		"link": "boot.html",
+		"width": 824,
+		"height": 624
+	} , {
+		"name": "Windows 93",
+		"icon": "images/icons/windows93.ico",
+		"link": "https://v1.windows93.net",
+		"width": 960,
+		"height": 734
+	} , {
+		"name": "98.js",
+		"icon": "images/icons/98.js.ico",
+		"link": "https://98.js.org/",
+		"width": 960,
+		"height": 713
+	} , {
+		"name": "Visual Studio Code",
+		"title": "Under Development",
+		"icon": "/emupedia-app-vscode/favicon.ico",
+		"link": "/emupedia-app-vscode/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Sandbox",
+		"title": "Under Development",
+		"icon": "/emupedia-app-sandbox/favicon.ico",
+		"link": "/emupedia-app-sandbox/index.html?repo=Emupedia/emupedia-app-sandbox/contents/examples?ref=master&baseurl=/emupedia-app-romcenter/&capsule=%3Cbody%3E&capsule=%3C/body%3E",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Microsoft Solitaire Collection",
+		"icon": "https://zone.msn.com/images/v9/en-us/game/msso/Solitaire_GameLogo_350x210_v1.png",
+		"link": "https://explorer.emupedia.net/aHR0cHMlM0ElMkYlMkZjZG4uem9uZS5tc24uY29tJTJGYXNzZXRzJTJGZ2FtZXMlMkZtaWNyb3NvZnRzb2xpdGFpcmVjb2xsZWN0aW9uJTJGMjAxOSUyRjIwMTkwNzI5VDEyMTMwMF8xLjUuNC4xX3JlbGVhc2VfdjAwMDFfOWFmNjQzOTJfbXNuJTJGc29saXRhaXJlJTJGaW5kZXguaHRtbCUzRmhvc3RpbmdFbnZpcm9ubWVudCUzRHpvbmU=",
+		"width": 960,
+		"height": 540
+	} , {
+		"name": "Microsoft Mahjong",
+		"icon": "https://zone.msn.com/images/v9/en-us/game/msmj/Mahjong_GameLogo_250_150.png",
+		"link": "https://explorer.emupedia.net/aHR0cHMlM0ElMkYlMkZjZG4uem9uZS5tc24uY29tJTJGYXNzZXRzJTJGZ2FtZXMlMkZtaWNyb3NvZnRtYWhqb25nJTJGMjAxOSUyRjIwMTkwODA1VDE4MDgwMF8xLjAuMl9yZWxlYXNlXzIwMTlfMDAyX2U1ODg2ZWRlX21zbiUyRmdhbWUuaHRtbCUzRmhvc3RpbmdFbnZpcm9ubWVudCUzRHpvbmU=",
+		"width": 960,
+		"height": 540
+	} , {
+		"name": "Microsoft Ultimate Word Games",
+		"icon": "https://zone.msn.com/images/v9/en-us/game/mscw/350x210_mscw.png",
+		"link": "https://explorer.emupedia.net/aHR0cHMlM0ElMkYlMkZjZG4uem9uZS5tc24uY29tJTJGYXNzZXRzJTJGZ2FtZXMlMkZtaWNyb3NvZnR1bHRpbWF0ZXdvcmRnYW1lcyUyRjIwMTklMkYyMDE5MDgyMVQwOTU0MDRfMS4wLjVfZmVhdHVyZXNfMjAxOV9OYW1lQ2hhbmdlVG9Xb3JkVHdpc3Rlcl9mNzg2MmE4X21zbiUyRndvcmQtZ2FtZXMlMkZnYW1lLmh0bWwlM0ZnYW1lJTNEY3Jvc3N3b3JkJTI2aG9zdGluZ0Vudmlyb25tZW50JTNEem9uZQ==",
+		"width": 960,
+		"height": 552
+	} , {
+		"name": "Cookie Clicker",
+		"icon": "/emupedia-game-cookie-clicker/favicon.png",
+		"link": "/emupedia-game-cookie-clicker/index.html",
+		"width": 1090,
+		"height": 600
+	} , {
+		"name": "Flappy Bird",
+		"icon": "/emupedia-game-flappy-bird/favicon.png",
+		"link": "/emupedia-game-flappy-bird/index.html",
+		"width": 432,
+		"height": 600
+	} , {
+		"name": "Geometry Dash",
+		"icon": "/emupedia-game-geometry-dash/favicon.png",
+		"link": "/emupedia-game-geometry-dash/index.html",
+		"width": "480",
+		"height": "392"
+	} , {
+		"name": "agar.io<br/>BETA",
+		"title": "Under Development",
+		"icon": "images/icons/agar.io.png",
+		"link": "https://agasio.herokuapp.com/",
+		"width": 900,
+		"height": 600
+	} , {
+		"name": "Raptor<br />(Prototype)",
+		"title": "Under Development",
+		"icon": "/emupedia-game-raptor/favicon.ico",
+		"link": "/emupedia-game-raptor/index.html",
+		"width": 640,
+		"height": 400
+	} , {
+		"name": "Wings 2.0<br />(Prototype)",
+		"title": "Under Development",
+		"icon": "/emupedia-game-wings2/favicon.ico",
+		"link": "/emupedia-game-wings2/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Worms 2<br />(Prototype)",
+		"title": "Under Development",
+		"icon": "/emupedia-game-worms2/favicon.ico",
+		"link": "/emupedia-game-worms2/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Biolab Disaster",
+		"icon": "/emupedia-game-biolab-disaster/favicon.png",
+		"link": "/emupedia-game-biolab-disaster/index.html",
+		"width": 720,
+		"height": 480
+	} , {
+		"name": "Super Blob Blaster",
+		"icon": "/emupedia-game-super-blob-blaster/favicon.png",
+		"link": "/emupedia-game-super-blob-blaster/index.html",
+		"width": 720,
+		"height": 480
+	} , {
+		"name": "Pac-Man",
+		"icon": "/emupedia-game-pac-man/favicon.ico",
+		"link": "/emupedia-game-pac-man/index.html",
+		"width": 1025,
+		"height": 715
+	} , {
+		"name": "Clippy",
+		"icon": "images/icons/clippy.png"
+	} , {
+		"name": "eSheep",
+		"icon": "images/icons/esheep.png"
+	} , {
+		"name": "SkiFree",
+		"icon": "/emupedia-game-skifree/favicon.ico",
+		"link": "/emupedia-game-skifree/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "ASCIICKER<br />(Demo)",
+		"title": "Under Development",
+		"icon": "/emupedia-demo-asciicker/favicon.ico",
+		"link": "/emupedia-demo-asciicker/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "3D Spatial Audio<br />(Demo)",
+		"icon": "/emupedia-demo-3d-spatial-audio/favicon.ico",
+		"link": "/emupedia-demo-3d-spatial-audio/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Voxel Space<br />(Demo)",
+		"icon": "/emupedia-demo-voxel-space/favicon.ico",
+		"link": "/emupedia-demo-voxel-space/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "8-bit Palette Color Cycling<br />(Demo)",
+		"icon": "/emupedia-app-8-bit-palette-color-cycling/favicon.ico",
+		"link": "/emupedia-app-8-bit-palette-color-cycling/index.html",
+		"width": 900,
+		"height": 550
+	} , {
+		"name": "RomCenter",
+		"title": "Under Development",
+		"icon": "/emupedia-app-romcenter/favicon.ico",
+		"link": "/emupedia-app-romcenter/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "DOSBox",
+		"title": "Under Development",
+		"icon": "/emupedia-app-dosbox/favicon.ico",
+		"link": "/emupedia-app-dosbox/index.html",
+		"width": 640,
+		"height": 422
+	} , {
+		"name": "Street Fighter Alpha<br />(Demo)",
+		"title": "Under Development",
+		"icon": ["akuma", "balrog", "blanka", "chunli", "dhalsim", "evilryu", "ken", "makoto", "ryu", "sagat", "sakura", "zangief"],
+		"link": "/emupedia-game-street-fighter-alpha/index.html",
+		"width": 1068,
+		"height": 576
+	} , {
+		"name": "Wolfenstein 3D",
+		"icon": "/emupedia-game-wolfenstein-3d-canvas/favicon.gif",
+		"link": "/emupedia-game-wolfenstein-3d-canvas/index.html",
+		"width": 960,
+		"height": 600
+	} , {
+		"name": "Doom 1",
+		"icon": "/emupedia-game-doom1/favicon.gif",
+		"link": "/emupedia-game-doom1/index.html",
+		"width": 640,
+		"height": 400
+	} , {
+		"name": "Doom 2: Hell on Earth",
+		"icon": "/emupedia-game-doom2/favicon.gif",
+		"link": "/emupedia-game-doom2/index.html",
+		"width": 640,
+		"height": 400
+	} , {
+		"name": "Doom 3",
+		"icon": "/emupedia-game-doom3/favicon.ico",
+		"link": "/emupedia-game-doom3/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "Quake 1",
+		"icon": "/emupedia-game-quake1/favicon.ico",
+		"link": "/emupedia-game-quake1/async.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "Quake 2",
+		"icon": "/emupedia-game-quake2/favicon.ico",
+		"link": "/emupedia-game-quake2/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "Half-Life 1",
+		"title": "Under Development",
+		"icon": "/emupedia-game-half-life1/favicon.ico",
+		"link": "/emupedia-game-half-life1/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "Diablo 1",
+		"title": "Under Development",
+		"icon": "/emupedia-game-diablo1/favicon.ico",
+		"link": "/emupedia-game-diablo1/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "Dark Reign: The Future of War",
+		"title": "Under Development",
+		"icon": "/emupedia-game-dark-reign/favicon.ico",
+		"link": "/emupedia-game-dark-reign/index.html",
+		"width": 640,
+		"height": 480
+	} , {
+		"name": "Command and Conquer",
+		"title": "Under Development",
+		"icon": "/emupedia-game-command-and-conquer1/favicon.ico",
+		"link": "/emupedia-game-command-and-conquer1/index.html",
+		"width": 640,
+		"height": 535
+	} , {
+		"name": "Minecraft",
+		"title": "Under Development",
+		"icon": "/emupedia-game-minecraft-classic/favicon.ico",
+		"link": "/emupedia-game-minecraft-classic/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Winamp",
+		"icon": "/emupedia-app-winamp/favicon.ico",
+		"link": "/emupedia-app-winamp/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "Notepad",
+		"icon": "/emupedia-app-notepad/favicon.ico",
+		"link": "/emupedia-app-notepad/index.html",
+		"width": 900,
+		"height": 480,
+		"runonce": true
+	} , {
+		"name": "Paint",
+		"icon": "/emupedia-app-paint/favicon.ico",
+		"link": "/emupedia-app-paint/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "SVG Editor",
+		"icon": "/emupedia-app-svg-editor/favicon.ico",
+		"link": "/emupedia-app-svg-editor/index.html",
+		"width": 900,
+		"height": 480
+	} , {
+		"name": "EmuChat",
+		"icon": "/emupedia-app-emuchat/favicon.ico",
+		"link": "/emupedia-app-emuchat/index.html",
+		"width": 900,
+		"height": 480,
+		"singleinstance": true
+	} , {
+		"name": "Discord",
+		"icon": "images/icons/discord.ico",
+		"link": "https://disweb.dashflo.net/channels/510149138491506688/604419869345185884/",
+		"width": 900,
+		"height": 480,
+		"singleinstance": true
+	}]
+}
