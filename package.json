@@ -37,7 +37,7 @@
     "@webcomponents/shadydom": "^1.7.1",
     "@webcomponents/template": "^1.4.1",
     "@webcomponents/webcomponentsjs": "^2.4.1",
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "animate.css": "^3.7.2",
     "ansilove.js": "github:ansilove/ansilove.js",
     "bootstrap": "^4.4.1",
