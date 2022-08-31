@@ -100,7 +100,7 @@
     "midi": "github:mudcube/MIDI.js",
     "moment": "^2.24.0",
     "moment-holiday": "^1.5.1",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.35",
     "monaco-editor": "^0.19.3",
     "normalize.css": "^8.0.1",
     "octokat": "^0.10.0",
